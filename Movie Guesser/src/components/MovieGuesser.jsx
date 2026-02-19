@@ -57,16 +57,16 @@ export default function MovieGuesser() {
             </div>
 
             <div className="btn-row">
-              {!revealed ? (
+              
                 <button className="btn btn-reveal" onClick={handleReveal}>
                   Reveal Answer
                 </button>
-              ) : (
                 <button className="btn btn-reveal" onClick={handleNext}>
                   Next Movie →
                 </button>
-              )}
             </div>
+           
+
           </div>
         </div>
       </div>

@@ -24,7 +24,7 @@ export const movies = [
     id: 4,
     title: "Home Alone",
     terriblePlot: "Parents forget their kid and two idiots get brutally tortured by an 8-year-old",
-    image: "https://upload.wikimedia.org/wikipedia/en/1/1a/Home_alone_poster.jpg",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfKhZvCWih3IMh7hODGjjl1ZrxFtvby3SlDy1fX4fahrtFPF_x",
     year: 1990,
   },
   {
@@ -55,4 +55,5 @@ export const movies = [
     image: "https://upload.wikimedia.org/wikipedia/en/1/1c/The_Dark_Knight_%282008_film%29.jpg",
     year: 2008,
   },
+  
 ];
