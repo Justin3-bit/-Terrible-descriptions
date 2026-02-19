@@ -3,14 +3,14 @@ export const movies = [
     id: 1,
     title: "The Godfather",
     terriblePlot: "Old Italian man refuses to help a friend, gets shot, then his son becomes a murderer",
-    image: "https://upload.wikimedia.org/wikipedia/en/1/1c/Godfather_ver1.jpg",
+    image: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTWmKJlXjXTiE9hkekFBy9WCRMf0eKZx2mrsgenlO-qzr9H7v0A",
     year: 1972,
   },
   {
     id: 2,
     title: "Titanic",
     terriblePlot: "Woman lets her boyfriend drown to protect a necklace she throws into the ocean anyway",
-    image: "https://upload.wikimedia.org/wikipedia/en/2/22/Titanic_poster.jpg",
+    image: "https://upload.wikimedia.org/wikipedia/en/1/18/Titanic_%281997_film%29_poster.png",
     year: 1997,
   },
   {
@@ -55,5 +55,5 @@ export const movies = [
     image: "https://upload.wikimedia.org/wikipedia/en/1/1c/The_Dark_Knight_%282008_film%29.jpg",
     year: 2008,
   },
-  
+
 ];

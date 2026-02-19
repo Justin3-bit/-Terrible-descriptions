@@ -71,13 +71,13 @@ export default function MovieGuesser() {
         </div>
       </div>
 
-      <div className="dots">
+      {/* <div className="dots">
         {queue.map((_, i) => (
           <div key={i} className={`dot${i === index ? " active" : ""}`} />
         ))}
-      </div>
+      </div> */}
 
-      <p className="counter">{index + 1} / {total}</p>
+      {/* <p className="counter">{index + 1} / {total}</p> */}
     </div>
   );
 }
