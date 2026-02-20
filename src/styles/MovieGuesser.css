@@ -232,3 +232,12 @@ body {
 .dot.active {
   background: #1a1a1a;
 }
+@media (max-height: 800px) {
+  .header {
+    margin-bottom: 24px;
+  }
+  
+  .app {
+    padding-top: 20px;
+  }
+}
