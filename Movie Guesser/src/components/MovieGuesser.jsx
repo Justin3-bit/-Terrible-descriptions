@@ -46,7 +46,7 @@ export default function MovieGuesser() {
 
         <div className="card-body">
           <p className="plot-label">The plot</p>
-          <p className="plot-text">"{movie.terriblePlot}"</p>
+          <p className="plot-text">{movie.terriblePlot}</p>
 
           <div className="reveal-section">
             <div className="answer-row">
@@ -55,8 +55,18 @@ export default function MovieGuesser() {
                 <span className="answer-title">{movie.title}</span>
               )}
             </div>
-
             <div className="btn-row">
+              {!revealed ? (
+                <button className="btn btn-reveal" onClick={handleReveal}>
+                  Reveal Answer
+                </button>
+              ) : (
+                <button className="btn btn-reveal" onClick={handleNext}>
+                  Next Movie →
+                </button>
+              )}
+            </div>
+            {/* <div className="btn-row">
               
                 <button className="btn btn-reveal" onClick={handleReveal}>
                   Reveal Answer
@@ -64,7 +74,7 @@ export default function MovieGuesser() {
                 <button className="btn btn-reveal" onClick={handleNext}>
                   Next Movie →
                 </button>
-            </div>
+            </div> */}
            
 
           </div>
